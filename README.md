@@ -35,5 +35,5 @@ This contains examples of accessing properties without Environment Object direct
 # 05 Profile
 This contains examples of the property, profile
 
-* By using profile in Java code
-* By using profile in Xml code
+* By using profile in Java code (@Profile(""))
+* By using profile in Xml code (profile="")
