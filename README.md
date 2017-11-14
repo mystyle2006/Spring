@@ -22,3 +22,6 @@ This contains a life cycle and scope of Bean
       
 * The scope of Bean
   * Default value : *singleton*
+
+# 03 Environment Object
+This contains a example of accessing properties with Environment.
