@@ -31,3 +31,9 @@ This contains examples of accessing properties without Environment Object direct
 
  * By using properties in Java code
  * By using properties in Xml code
+
+# 05 Profile
+This contains examples of the property, profile
+
+* By using profile in Java code
+* By using profile in Xml code
