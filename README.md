@@ -25,3 +25,9 @@ This contains a life cycle and scope of Bean
 
 # 03 Environment Object
 This contains a example of accessing properties with Environment.
+
+# 04 Accessing Properties Directly without Environment Object
+This contains examples of accessing properties without Environment Object directly
+
+ * By using properties in Java code
+ * By using properties in Xml code
