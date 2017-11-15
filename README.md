@@ -45,15 +45,15 @@ This contains a simple example of AOP
  * AOP addresses the cross-cutting concerns which should be inserted into between your codes that is repeated in methods like logging and exceptions. So by using this technique, you can leave that stuffs out of your main code.
  
 * Terms
- * Aspect : a commin function
- * advice :  a viewpoint of aspect
- * Jointpoint : a part of core functions
- * Pointcut : a part that advice is applied
- * Weaving : a behavior of applying advice to Jointpoint.
+  * Aspect : a commin function
+  * advice :  a viewpoint of aspect
+  * Jointpoint : a part of core functions
+  * Pointcut : a part that advice is applied
+  * Weaving : a behavior of applying advice to Jointpoint.
 
 * the kinds of advice
- * <aop:before> : running advice before any method
- * <aop:around> : running advice before and after any method with excpetion
- * <aop:after-returning> : running advice after running normaly any method.
- * <aop:after-throwing> : running advice when throwing exception during any method
- * <aop:after> : running advice after any method with exception
+  * <aop:before> : running advice before any method
+  * <aop:around> : running advice before and after any method with excpetion
+  * <aop:after-returning> : running advice after running normaly any method.
+  * <aop:after-throwing> : running advice when throwing exception during any method
+  * <aop:after> : running advice after any method with exception
