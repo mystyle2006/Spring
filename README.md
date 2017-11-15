@@ -57,3 +57,18 @@ This contains a simple example of AOP
   * <aop:after-returning> : running advice after running normaly any method.
   * <aop:after-throwing> : running advice when throwing exception during any method
   * <aop:after> : running advice after any method with exception
+
+# 07 AspectJ Pointcut Expression
+This contains an example of Pointcut Expression.
+
+* Rules
+  * "*" : All
+  * . : Current
+  * .. : lager than 0
+  
+  * Execution
+    * @pointcut("execution(public void get*(..))") // get method with public void
+    * @pointcut("execution(* com.javalec.ex.*.*())") // All methods in com.javalec.ex package without parametors
+    * @pointcut("execution(* com.javalec.ex..*.*())") // All methods in com.javalec.ex package & com.javalec.ex's sub-package without parametors
+  * within
+    * @Pointcut("within(com.javalec.ex.*)") // All method in this designated package.
