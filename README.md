@@ -72,3 +72,10 @@ This contains an example of Pointcut Expression.
     * @pointcut("execution(* com.javalec.ex..*.*())") // All methods in com.javalec.ex package & com.javalec.ex's sub-package without parametors
   * within
     * @Pointcut("within(com.javalec.ex.*)") // All method in this designated package.
+
+# 08 Form Data
+This contains how to deliver datas to Server and get datas from Server
+
+* HttpServletRequest method
+* @RequestParam method
+* Data(command) Object method
