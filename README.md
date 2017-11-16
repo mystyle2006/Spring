@@ -106,4 +106,4 @@ This contains how to deliver datas to Server and get datas from Server
 This contains a simple example of mapping paramater by using form tag
 
 * Sytax
- * @RequestMapping(method = RequestMethod.GET, value = "request path)
+  * @RequestMapping(method = RequestMethod.GET, value = "request path)
