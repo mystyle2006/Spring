@@ -101,3 +101,9 @@ This contains how to deliver datas to Server and get datas from Server
  <url-pattern>/*</url-pattern>
 </filter-mapping>
 ~~~
+
+# 09 Request Mapping Parameter
+This contains a simple example of mapping paramater by using form tag
+
+* Sytax
+ * @RequestMapping(method = RequestMethod.GET, value = "request path)
