@@ -82,7 +82,7 @@ This contains how to deliver datas to Server and get datas from Server
 
 
 ~~~
-Korean Encoding
+## Korean Encoding
 <filter>
  <filter-name>encodingFilter</filter-name>
  <filter-class>
