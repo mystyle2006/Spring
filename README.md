@@ -80,7 +80,7 @@ This contains how to deliver datas to Server and get datas from Server
 * @RequestParam method
 * Data(command) Object method
 
-## Korean Encoding
+## Korean Encoding in web.xml
 ~~~
 <filter>
  <filter-name>encodingFilter</filter-name>
